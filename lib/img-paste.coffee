@@ -14,7 +14,7 @@ attachEvent = ->
       if img.isEmpty()
         return
       else
-        cursor = atom.workspace.getActiveTextcursor()
+        cursor = atom.workspace.getActiveTextEditor()
         fileName = "img-paste-#{formatDate(new Date())}.png"
         fs.writeFile join(dirname(cursor.getPath()), fileName), img.toPng(), ->
           console.info 'Ok! Image is saved'
