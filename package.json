@@ -1,24 +1,24 @@
 {
-    "name": "img-paste",
-    "main": "./lib/img-paste",
-    "version": "0.1.0",
-    "description": "Save image in clipboard to file, and generate a markdown tag for insert it",
-    "keywords": [
-        "atom",
-        "package",
-        "clipboard",
-        "markdown",
-        "image",
-        "md"
-    ],
-    "activationCommands": {
-        "atom-workspace": "img-paste:toggle"
-    },
-    "repository": "https://github.com/noizbuster/img-paste.git",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {},
-    "devDependencies": {}
+  "name": "img-paste",
+  "main": "./lib/img-paste",
+  "version": "0.2.0",
+  "description": "Save image in clipboard to file, and generate a markdown tag for insert it",
+  "keywords": [
+    "atom",
+    "package",
+    "clipboard",
+    "markdown",
+    "image",
+    "md"
+  ],
+  "activationCommands": {
+    "atom-workspace": "img-paste:toggle"
+  },
+  "repository": "https://github.com/noizbuster/img-paste.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
