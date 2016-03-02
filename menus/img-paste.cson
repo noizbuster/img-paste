@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle img-paste'
+      'command': 'img-paste:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'img-paste'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'img-paste:toggle'
+        }
+      ]
+    ]
+  }
+]
