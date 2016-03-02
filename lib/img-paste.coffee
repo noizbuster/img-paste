@@ -9,7 +9,7 @@ module.exports =
 attachEvent = ->
   ws = atom.views.getView atom.workspace
   ws.addEventListener 'keydown', (evt)->
-    if evt.metaKey and evt.altKey and evt.ctrlKey and evt.keyCode is 86 and not (evt.shiftKey)
+    if evt.shiftKey and evt.altKey and evt.ctrlKey and evt.keyCode is 86 and not (evt.metaKey)
       img = clipboard.readImage()
       if img.isEmpty()
         return
