@@ -10,13 +10,16 @@ apm install img-paste
 ```
 * or you can also find in Settings/Install by search
 
-# How to Use (Linux, Windows)
+# How to Use
+
+## Linux, Windows
+
 1. cut or copy or capture some image
 2. Hit Alt+Ctrl+Shift+V in your editor
 
-How to Use (MAC OS X)
+## OS X - MAC
 1. cut or copy or capture some image
-2. Hit Cmd+Ctrl+Shift+V in your editor 
+2. Hit Cmd+Ctrl+Shift+V in your editor
 
 # Contribution
 > https://guides.github.com/activities/contributing-to-open-source/
