@@ -1,7 +1,7 @@
 {
   "name": "img-paste",
   "main": "./lib/img-paste",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Save image in clipboard to file, and generate a markdown tag for insert it",
   "keywords": [
     "atom",
